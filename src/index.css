@@ -1,0 +1,246 @@
+/* font family imported */
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  background: #1c0c53;
+  color: #f8f8f8;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+button {
+  color: #f8f8f8;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 55px;
+  }
+}
+@media (max-width: 600px) {
+  h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+}
+/* banner section style  */
+.banner {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.banner-row {
+  width: 100%;
+}
+/* banner counter styled */
+.banner-counter {
+  max-width: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-counter > button {
+  padding: 15px;
+  border: none;
+  outline: none;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.banner-counter > button:first-child {
+  background: #302687;
+  border-radius: 50px 0 0 50px;
+}
+.banner-counter > button:last-child {
+  background: #302687;
+  border-radius: 0 50px 50px 0;
+}
+.inputField {
+  min-width: 100px;
+  padding: 15px;
+  width: 100%;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #302687;
+  border-right: 2px solid #1c1a51;
+  border-left: 2px solid #1c1a51;
+  border-top: 2px solid #1c1a51;
+  border-bottom: 2px solid #1c1a51;
+  text-align: center; 
+  color: #fff;
+}
+
+/* simple button  */
+.simple-button {
+  min-width: 150px;
+  background: #302687;
+  font-size: 23px;
+  font-weight: 600;
+  text-align: center;
+  padding: 16px;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 50px;
+}
+.button-extra-style {
+  margin-left: 50px;
+}
+
+/* styled button  */
+.styled-button {
+  letter-spacing: initial;
+  display: flex;
+  padding: 10px 16px;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px;
+  border: 2px solid #82d9ff;
+  border-radius: 4px;
+  background: transparent;
+  box-shadow: inset -1px 1px 7px 2px #1f87ff, 2px 5px 10px 0px #0b325e,
+    0px 0px 14px 3px rgba(0, 0, 0, 0);
+}
+.styled-button img {
+  width: 26px;
+  height: 26px;
+  margin-right: 15px;
+}
+
+/* banner image style  */
+.banner-img-container {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  position: relative;
+}
+.star-icon {
+  position: absolute;
+  max-width: 10px;
+  width: 100%;
+  height: 10px;
+  z-index: -1;
+}
+.star2 {
+  right: -50px;
+  bottom: -50px;
+}
+.star3 {
+  left: -100px;
+  top: -50px;
+}
+.star4 {
+  left: -80%;
+  top: 100%;
+}
+.star5 {
+  right: -40%;
+  top: -20px;
+}
+.star6 {
+  right: 0%;
+  bottom: 0%;
+}
+.star7 {
+  left: -70px;
+  bottom: 50%;
+}
+.star8 {
+  left: 25%;
+  bottom: -10%;
+}
+.banner-rocketimg {
+  max-width: 200px;
+  width: 100%;
+  height: 200px;
+  left: -80%;
+  top: 60%;
+}
+input:focus{
+    outline: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+@media (max-width: 992px) {
+  .banner {
+    margin-top: 30px;
+  }
+  .banner-img-container {
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+  }
+  .banner-rocketimg {
+    max-width: 80px;
+    height: 80px;
+    left: -80px;
+  }
+  .banner-text-section > div {
+    margin: auto;
+  }
+  .banner-text {
+    text-align: center;
+  }
+  .banner-counter-button {
+    justify-content: center;
+  }
+  .styled-button-container {
+    justify-content: center;
+  }
+}
+@media (max-width: 400px) {
+  .banner-counter-button {
+    flex-direction: column;
+  }
+  .banner-counter {
+    margin: auto;
+  }
+  .simple-button {
+    max-width: 200px;
+    margin-left: 0;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .styled-button-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .styled-button:last-child {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}

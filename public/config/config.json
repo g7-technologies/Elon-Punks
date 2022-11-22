@@ -1,0 +1,19 @@
+{
+  "CONTRACT_ADDRESS": "0x5F9d9c26b013D8ea07B65c8c052f364DB1d6Cc40",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x5F9d9c26b013D8ea07B65c8c052f364DB1d6Cc40",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "Eth",
+    "ID": 4
+  },
+  "NFT_NAME": "Elon Punks NFTs",
+  "SYMBOL": "Elon Punks NFTs",
+  "MAX_SUPPLY": 10000,
+  "WEI_COST": 20000000000000000,
+  "DISPLAY_COST": 0.02,
+  "GAS_LIMIT": 70000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "",
+  "SHOW_BACKGROUND": false,
+  "DEEP_LINK": "https://metamask.app.link/dapp/elonpunksnft.com/"
+}

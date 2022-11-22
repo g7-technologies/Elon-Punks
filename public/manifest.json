@@ -1,0 +1,10 @@
+{
+  "short_name": "EPNFTs",
+  "name": "Elon Punks NFTs",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
